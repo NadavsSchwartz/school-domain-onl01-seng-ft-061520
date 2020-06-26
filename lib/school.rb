@@ -3,12 +3,17 @@ class School
   attr_accessor :model, :roster
   attr_reader :model
   
-  def initiallize(model)
-    @model = model
+class School
+	attr_accessor :roster, :name, :grade 
+	attr_reader :school 
+	
+	def initialize(school)
+    @school = school
   end
   
-    def roster
-      roster = {}
-  end
+  def roster
+  	roster = {}
+  end 
+  
 
 end
