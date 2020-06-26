@@ -11,5 +11,13 @@ class School
     roster[grade] ||= []
     roster[grade] << name
   end
+  
+    def grade(level)
+    roster.detect do |x, y| 
+      if x == level
+        return y 
+      end 
+    end 
+  end 
 
 end
